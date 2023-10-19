@@ -6,11 +6,22 @@ function App() {
 
   return (
     <>
-      <Header/>
+    <div className="flex flex-col min-h-screen">
+      <div>
+        <Header/>
+      </div>
+      
+      <div className="flex-grow">
+        <Body/>
+      </div>
 
-      <Body/>
+      <div>
+        <Footer/>
+      </div>
 
-      <Footer/>
+
+    </div>
+      
     </>
   )
 }

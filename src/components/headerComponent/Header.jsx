@@ -21,6 +21,12 @@ export const Header = () => {
                     <img src={girasol} alt="logo" className='w-[65px] md:w-[90px]' /> 
                    </div>
                 </div>
+
+                <div className='md:hidden mt-3 grid grid-cols-3 items-center text-center col-span-4'>
+                    <a href="" className="m-3 hover:text-custom-gray">Home</a>
+                    <a href="" className="m-3">Templos</a>
+                    <a href="" className="m-3">Comentarios</a>
+                </div>
                 
             </div>
         </>
